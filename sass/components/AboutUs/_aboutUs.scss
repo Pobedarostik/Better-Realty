@@ -1,0 +1,50 @@
+.aboutUs {
+  padding: 68px 0 5px 0;
+}
+.div {
+  display: flex;
+}
+.aboutUs_divForText {
+  max-width: 343px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-right: 55px;
+}
+
+.aboutUs_title {
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 56px;
+  line-height: 60px;
+  letter-spacing: 0.1em;
+  text-align: center;
+
+  margin-bottom: 49px;
+}
+.aboutUs_text {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+
+  margin-bottom: 40px;
+}
+.about_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  // transform: translate(25%);
+  // margin-top: 0;
+  width: 196px;
+  height: 50px;
+}
+
+.youTube {
+  background-color: black;
+  width: 100%;
+}

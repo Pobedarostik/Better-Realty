@@ -1,0 +1,17 @@
+.button {
+  background: linear-gradient(90deg, #eb9562 0%, #e0cfa7 148.54%);
+  box-shadow: 3.9px 3.9px 3.9px rgba(0, 0, 0, 0.25);
+
+  color: #ffffff;
+  cursor: pointer;
+
+  &:hover {
+    background: linear-gradient(90deg, #e27536 0%, #dcc286 148.54%);
+  }
+
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+}

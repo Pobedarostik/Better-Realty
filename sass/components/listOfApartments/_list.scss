@@ -1,0 +1,44 @@
+.header_listOfApartments {
+  display: flex;
+  justify-content: space-between;
+  padding: 90px 0 5px 0;
+}
+.div_header_ListOfApartments_ForText {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 615px;
+}
+.header_listOfApartments_title {
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 56px;
+  line-height: 60px;
+  letter-spacing: 0.1em;
+
+  margin-bottom: 49px;
+}
+.header_listOfApartments_text {
+  max-width: 380px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 21px;
+
+  margin-bottom: 40px;
+}
+
+.header_listOfApartments_button {
+  width: 303px;
+  height: 80.59px;
+  font-size: 16px;
+  line-height: 20px;
+  border-radius: 24.9814px;
+}
+.div_header_listOfApartments_forImg {
+  & img {
+    height: 100%;
+  }
+}

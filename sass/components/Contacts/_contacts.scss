@@ -1,0 +1,59 @@
+.contacts {
+  padding: 89px 0 5px 0;
+  & .container {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.contacts_title {
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 70px;
+  // letter-spacing: 0.1em;
+  text-align: center;
+
+  margin-bottom: 56px;
+}
+
+.contacts_item {
+  display: flex;
+  align-items: center;
+  font-family: 'Montserrat';
+  font-weight: 300;
+  font-size: 43px;
+  line-height: 56px;
+  &:not(:last-child) {
+    margin-bottom: 34px;
+  }
+
+  & .underline {
+    text-decoration: underline;
+  }
+  & a {
+    margin-left: 25px;
+  }
+  & svg {
+    width: 45px;
+    height: 48px;
+    display: flex;
+    &.contacts_item_svg-facebook:hover {
+      fill: blue;
+    }
+    &.contacts_item_svg-insta:hover {
+      fill: tomato;
+    }
+  }
+}
+.button_contact {
+  width: 303px;
+  height: 80.59px;
+  border-radius: 25px;
+  font-size: 18px;
+  line-height: 22px;
+}
+.screenShoot {
+  width: 345.35px;
+  height: 698.79px;
+}

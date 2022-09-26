@@ -1,0 +1,61 @@
+.whyUs {
+  padding: 68px 0 5px 0;
+}
+
+.h2 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 70px;
+  letter-spacing: 0.1em;
+  text-align: center;
+
+  color: #8d3500;
+  margin-bottom: 55px;
+}
+
+.whyUs_list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 55px;
+}
+.whyUs_list_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 305px;
+  height: 157px;
+  padding: 10px 20px;
+
+  border: 1px solid #8d3500;
+  border-radius: 18px;
+}
+.whyUs_list_item_img {
+  width: 114px;
+  height: 105px;
+}
+.text_group {
+  display: flex;
+  flex-direction: column;
+}
+.whyUs_list_item_title {
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 65px;
+  line-height: 70px;
+  letter-spacing: 0.1em;
+}
+.whyUs_list_item_text {
+  font-family: 'Montserrat';
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+}
+.whyUs_text {
+  font-family: 'Montserrat';
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 32px;
+  text-align: center;
+}

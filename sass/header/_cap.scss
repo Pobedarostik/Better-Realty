@@ -1,0 +1,44 @@
+.cap {
+  display: flex;
+  flex-wrap: wrap;
+}
+.forCap_text {
+  max-width: 659px;
+  margin-right: 61px;
+}
+.cap_title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 92px;
+  line-height: 114px;
+  letter-spacing: 0.1em;
+
+  color: #ffffff;
+}
+.cap_text {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 49px;
+
+  color: #ffffff;
+}
+.cap_img {
+  width: 420px;
+  height: 420px;
+  border-radius: 50%;
+  background: #c4c4c4;
+  border: 11px solid #eb9562;
+  margin-top: 50px;
+}
+.cap_button {
+  width: 376px;
+  height: 100px;
+  border-radius: 31px;
+
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+}

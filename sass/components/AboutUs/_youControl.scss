@@ -1,0 +1,31 @@
+.youControl {
+  padding: 64px 0 120px 0;
+}
+
+.youControl_title {
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 70px;
+  text-align: center;
+
+  margin-bottom: 69px;
+}
+.youControl_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  & img {
+    width: 344px;
+    height: 123px;
+  }
+}
+
+.youControl_list {
+}
+.youControl_list_item {
+  font-family: 'Montserrat';
+  font-weight: 300;
+  font-size: 34px;
+  line-height: 45px;
+}

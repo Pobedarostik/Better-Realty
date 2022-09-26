@@ -1,0 +1,21 @@
+.form {
+  padding: 125px 0 86px 0;
+}
+.form_container {
+  display: flex;
+  & input {
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+  }
+}
+
+.buttonForm {
+  width: 230px;
+  height: 56.36px;
+  border-radius: 31px;
+
+  font-weight: 600;
+
+  transform: translate(-50%);
+  margin-top: 50px;
+}

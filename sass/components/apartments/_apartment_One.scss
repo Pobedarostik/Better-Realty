@@ -1,0 +1,42 @@
+.apartment {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 0 0 0;
+}
+.forImg {
+  width: 720px;
+  & img {
+    height: 100%;
+  }
+}
+.forText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  max-width: 380px;
+}
+.apartment_title {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 41px;
+
+  margin-bottom: 29px;
+}
+.apartment_text {
+  font-family: 'Montserrat';
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 21px;
+
+  margin-bottom: 67px;
+}
+.apartment_button {
+  width: 210.8px;
+  height: 56.06px;
+  border-radius: 17.3798px;
+
+  align-self: center;
+}

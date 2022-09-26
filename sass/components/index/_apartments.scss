@@ -1,0 +1,52 @@
+// .apartments {
+// }
+
+.apartments_list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.apartments_list_item {
+  position: relative;
+
+  // background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(47, 48, 58, 0.4)),
+  //   url(../../images/doubleRoom.jpg);
+  // background-color: #c4c4c4;
+  // background-position: center;
+  // background-size: cover;
+
+  &::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}
+.block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 42px;
+  padding: 0 15px;
+  background-color: rgb(235, 235, 235, 0.5);
+  position: absolute;
+  left: 149px;
+  bottom: 32px;
+
+  & a {
+    display: contents;
+    font-family: 'Montserrat';
+    font-size: 26px;
+    line-height: 32px;
+
+    color: #ffffff;
+
+    & img {
+      margin-left: 15px;
+      width: 16px;
+      height: 18.5px;
+    }
+  }
+}

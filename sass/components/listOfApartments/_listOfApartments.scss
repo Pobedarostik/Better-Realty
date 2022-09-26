@@ -1,0 +1,69 @@
+.listOfApartments {
+  padding: 40px 0 85px 0;
+}
+.listOfApartments_title {
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 56px;
+  line-height: 60px;
+  letter-spacing: 0.1em;
+  text-align: center;
+
+  margin-bottom: 45px;
+}
+.listOfApartments_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.listOfApartments_list_item {
+  padding: 30px 25px 29px 21px;
+  width: 560px;
+  height: 250px;
+  border: 1px solid #8d3500;
+  border-radius: 28px;
+  &:not(:nth-child(even)) {
+    margin-right: 25px;
+  }
+  &:not(:last-child) {
+    margin-bottom: 25px;
+  }
+}
+
+.listOfApartments_list_link {
+  display: flex;
+  justify-content: space-between;
+}
+.listOfApartments_list_link_divImg {
+  width: 212.71px;
+  height: 191px;
+  & img {
+    height: 100%;
+  }
+}
+.listOfApartments_list_link_divText {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 273px;
+}
+.listOfApartments_list_link_title {
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 32px;
+}
+.listOfApartments_list_link_text {
+  font-family: 'Montserrat';
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 21px;
+}
+.listOfApartments_list_link_span {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  align-self: flex-end;
+}

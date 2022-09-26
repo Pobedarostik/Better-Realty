@@ -1,0 +1,49 @@
+.infoAboutApartment {
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.infoAboutApartment_wrapperForImg {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.infoAboutApartment_Img_1 {
+  max-width: 432px;
+}
+.infoAboutApartment_Img_2 {
+  max-width: 378px;
+}
+.infoAboutApartment_Img_2_mod {
+  max-width: 432px;
+}
+.infoAboutApartment_wrapperForText {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 995px;
+  height: 136px;
+
+  border: 1px solid #8d3500;
+  border-radius: 17px;
+
+  margin-bottom: 37px;
+  padding: 5px;
+  & span {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 32px;
+  }
+}
+.infoAboutApartment_text {
+  font-family: 'Montserrat';
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 32px;
+  text-align: center;
+}

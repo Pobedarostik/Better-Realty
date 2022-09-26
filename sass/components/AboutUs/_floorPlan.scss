@@ -1,0 +1,30 @@
+.floorPlan {
+  padding: 62px 0 5px 0;
+}
+.floorPlan_title {
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 70px;
+  // letter-spacing: 0.1em;
+  text-align: center;
+}
+.floorPlan_borderForImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  & img {
+    width: 929px;
+    height: 613px;
+  }
+}
+.floorPlan_text {
+  font-family: 'Montserrat';
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+}
+.floorPlan_text--mod {
+  margin-bottom: 20px;
+}
